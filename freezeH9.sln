@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "freezeH9", "freezeH9.vcxproj", "{7EE8DD7E-D790-4A78-BD3C-2653FFB1B7CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EE8DD7E-D790-4A78-BD3C-2653FFB1B7CB}.Debug|x64.ActiveCfg = Debug|x64
+		{7EE8DD7E-D790-4A78-BD3C-2653FFB1B7CB}.Debug|x64.Build.0 = Debug|x64
+		{7EE8DD7E-D790-4A78-BD3C-2653FFB1B7CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{7EE8DD7E-D790-4A78-BD3C-2653FFB1B7CB}.Debug|x86.Build.0 = Debug|Win32
+		{7EE8DD7E-D790-4A78-BD3C-2653FFB1B7CB}.Release|x64.ActiveCfg = Release|x64
+		{7EE8DD7E-D790-4A78-BD3C-2653FFB1B7CB}.Release|x64.Build.0 = Release|x64
+		{7EE8DD7E-D790-4A78-BD3C-2653FFB1B7CB}.Release|x86.ActiveCfg = Release|Win32
+		{7EE8DD7E-D790-4A78-BD3C-2653FFB1B7CB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99B6D017-24B9-44B7-BF3B-409A7D09E74D}
+	EndGlobalSection
+EndGlobal
