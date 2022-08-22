@@ -28,7 +28,7 @@ int main()
     }
     ++path[c1];
     ++path[c2];
-    // bfs 
+    // bfs  
     queue<int> q;
     q.push(c1);
     q.push(c2);
