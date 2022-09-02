@@ -17,7 +17,7 @@ ListNode* reverseList(ListNode* head)
 	cur->next = pre;
 	return cur;
 }
-*/
+
 
 //t2
 int findStr(string str, string mod)
@@ -28,7 +28,7 @@ int findStr(string str, string mod)
 		++index;
 	int len = str.size(), len2 = mod.size();
 
-	for (int i = index; i < len - len2; ++i)
+	for (int i = index; i < len ; ++i)
 	{
 		if (mod[index] == str[i])
 		{
@@ -42,4 +42,20 @@ int findStr(string str, string mod)
 		}
 	}
 	return -1;
+}
+*/
+
+
+
+//t1
+vector<int> getWakeLockContrib(vector<vector<int> >& wakeLock) {
+	int len = wakeLock.size();
+	vector<int> res(len, 0);
+	for (int i = 0; i < len; ++i)
+	{
+		int size = wakeLock[i].size();
+		for (int j = 0; j < size; j += 2)
+			res[i] += wakeLock[i][j + 1] - wakeLock[i][j];
+	}
+	return res;
 }
